@@ -18,8 +18,15 @@ body{
 }
 
 .container{
-    width: 11140px;
+    width: 1140px;
     margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(./img/IMAGE\ \(3\).png);
 }
 
 nav .container{
@@ -28,14 +35,89 @@ nav .container{
     align-items: center;
 }
 
-nav .container strong{
+.nav-boxs strong{
     font-family: Lora;
     font-size: 26px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
+    color: #FFFFFF;
+}
 
+.nav-all{
+    display: flex;
+}
+
+.nav-boxs{
+    width: 1110px;
+}
+
+
+.nav-box{
+    margin-right: 50px;
+    color:   #FFFFFF;
+    ;
+}
+
+.nav-box:nth-child(4){
+    margin-right: 150px;
+}
+
+@media (max-whidth: 1160px){
+    .container{
+        width: 1040px;
+    }
+    
+    header{
+        width: ;
+    }
+}
+
+@media (max-whidth: 1060px){
+    .container{
+        width: 940px;
+    }
+}
+
+@media (max-whidth: 960px){
+    .container{
+        width: 840px;
+    }
+}
+
+@media (max-whidth: 860px){
+    .container{
+        width: 740px;
+    }
+}
+
+@media (max-whidth: 760px){
+    .container{
+        width: 640px;
+    }
+}
+
+@media (max-whidth: 660px){
+    .container{
+        width: 540px;
+    }
+}
+
+@media (max-whidth: 560px){
+    .container{
+        width: 440px;
+    }
+}
+
+@media (max-whidth: 460px){
+    .container{
+        width: 340px;
+    }
+}
+
+@media (max-whidth: 360px){
+    .container{
+        width: 240px;
+    }
 }
 
 
