@@ -27,18 +27,21 @@ header{
     height: 100vh;
     background-size: 100%;
     background-image: url(./img/IMAGE\ \(3\).png);
+    background-repeat: no-repeat;
 }
 
 nav .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
-.nav-boxs strong{
+nav .container strong{
     font-family: Lora;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 10;
+    letter-spacing: 2px;
     line-height: 26px;
     color: #FFFFFF;
 }
@@ -47,74 +50,71 @@ nav .container{
     display: flex;
 }
 
-.nav-boxs{
-    width: 1110px;
-}
-
-
 .nav-box{
     margin-right: 50px;
     color:   #FFFFFF;
-    ;
 }
 
 .nav-box:nth-child(4){
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
-@media (max-whidth: 1160px){
+@media (max-width: 1160px){
     .container{
         width: 1040px;
     }
     
-    header{
-        width: ;
-    }
 }
 
-@media (max-whidth: 1060px){
+@media (max-width: 1060px){
     .container{
         width: 940px;
     }
 }
 
-@media (max-whidth: 960px){
+@media (max-width: 960px){
     .container{
         width: 840px;
     }
 }
 
-@media (max-whidth: 860px){
+@media (max-width: 860px){
     .container{
         width: 740px;
     }
+
+
 }
 
-@media (max-whidth: 760px){
+@media (max-width: 760px){
     .container{
         width: 640px;
     }
+
+    .nav-all{
+        width: 700px;
+    }
 }
 
-@media (max-whidth: 660px){
+@media (max-width: 660px){
     .container{
         width: 540px;
     }
 }
 
-@media (max-whidth: 560px){
+@media (max-width: 560px){
     .container{
         width: 440px;
     }
 }
 
-@media (max-whidth: 460px){
+@media (max-width: 460px){
     .container{
         width: 340px;
     }
 }
 
-@media (max-whidth: 360px){
+@media (max-width: 360px){
     .container{
         width: 240px;
     }
