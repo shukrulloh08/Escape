@@ -24,7 +24,7 @@ body{
 
 header{
     width: 100%;
-    height: 100vh;
+    height: 72vh;
     background-size: 100%;
     background-image: url(./img/IMAGE\ \(3\).png);
     background-repeat: no-repeat;
@@ -119,6 +119,13 @@ nav .container strong{
     transition: .7s;
 }
 
+.becraund{
+    width: 100%;
+    height: 300px;
+    background: #cd2727;
+
+}
+
 @media (max-width: 1160px){
     .container{
         width: 1040px;
@@ -126,7 +133,6 @@ nav .container strong{
     nav .container{
         margin-bottom: 100px;
     }
-    
 }
 
 @media (max-width: 1060px){
@@ -139,7 +145,6 @@ nav .container strong{
     .main-all strong{
         font-size: 40px;
     }
-
     .main-all p{
         font-size: 14px;
     }
@@ -185,7 +190,6 @@ nav .container strong{
     .nav-all{
         font-size: 10px;
     }
-
     .main-all strong{
         font-size: 30px;
     }
@@ -212,12 +216,10 @@ nav .container strong{
     nav .container strong{
         font-size: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
+    }   
     .main-all strong{
         font-size: 25px;
     }
-
     .main-all a{
         height: 20px;
         width: 120px;
@@ -236,15 +238,14 @@ nav .container strong{
     .main-all p{
         font-size: 11px;
         margin-bottom: -10px;
+        margin-top: -5px;
     }
     nav .container strong{
         font-size: 14px;
     }
-
     nav .container{
-        margin-bottom: -7px;
+        margin-bottom: -5px;
     }
-
 }
 
 @media (max-width: 360px){
@@ -252,10 +253,15 @@ nav .container strong{
         width: 240px;
     }
     .main-all p{
-        font-size: 8px;
+        font-size: 7px;
+        margin-top: -15px;
     }
     .main-all strong{
-        font-size: 20px;
+        font-size: 15px;
+    }
+    nav .container strong{
+        font-size: 10px;
+        margin-bottom: -8px;
     }
     .main-all a{
         height: 15px;
