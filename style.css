@@ -394,6 +394,12 @@ nav .container strong{
     height: 40px;
 }
 
+.home-all .container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
 
 
 
@@ -415,6 +421,9 @@ nav .container strong{
 @media (max-width: 1060px){
     .container{
         width: 940px;
+    }
+    .input{
+        margin-left: 250px;
     }
     .white-box{
         flex-direction: column;
@@ -439,6 +448,9 @@ nav .container strong{
     .container{
         width: 840px;
     }
+    .input{
+        margin-left: 150px;
+    }
 }
 
 @media (max-width: 860px){
@@ -451,6 +463,13 @@ nav .container strong{
 @media (max-width: 760px){
     .container{
         width: 640px;
+    }
+    .home-all strong{
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    .input{
+        margin-left: 50px;
     }
     .nav-all{
         display: none;
@@ -549,6 +568,9 @@ nav .container strong{
 @media (max-width: 460px){
     .container{
         width: 340px;
+    }
+    .input{
+        margin-left: 0;
     }
     .still-photo{
         margin-bottom: 50px;
