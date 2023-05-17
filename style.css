@@ -386,11 +386,12 @@ nav .container strong{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 5px;
     margin-bottom: 130px;
     background: #232F3899;
     width: 100%;
-
+    margin-top: -40px;
+    height: 40px;
 }
 
 
